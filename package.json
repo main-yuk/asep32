@@ -1,0 +1,14 @@
+{
+  "name": "asep",
+  "version": "2.9.9",
+  "description": "latihan express",
+  "main": "hehe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "asep",
+  "license": "ISC"
+}
