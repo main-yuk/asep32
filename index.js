@@ -3,20 +3,20 @@ const express = require('express');
 const app = express();
 
 
-app.get('/vt/reine', (req, res) => {
+app.get('/api/products', (req, res) => {
 	res.json({
-		message: "kalkun",
-		name: "vtuber",
-		img: "wkwkwk.jpg",
+		message: "kalung",
+		name: "ranah",
+		img: "kalung.jpg",
 		tag: null
 	});
 });
 
-app.get('/vt/bulan', (req, res) => {
+app.get('/api/detail', (req, res) => {
 	res.json({
-		message: "moona",
-		name: "vtuber",
-		img: "hehe.jpg",
+		message: "asepsan",
+		name: "punya",
+		img: "node.png",
 		tag: null
 	});
 });
@@ -31,6 +31,6 @@ app.get('/logout', (req, res) => {
 	res.send("successfully");
 });
 
-app.listen(2000, () => {
-	console.log('server running on port 9000');
+app.listen(5000, () => {
+	console.log('server running on port 5000');
 });
